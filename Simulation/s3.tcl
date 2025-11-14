@@ -79,4 +79,4 @@ $ns at 5.0 "$ftp1 stop"
 # Call finish procedure
 $ns at 5.5 "finish"
 # Run simulation
-$n
+$ns run
