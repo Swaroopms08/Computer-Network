@@ -77,3 +77,8 @@ $ns at 5.0 "$ftp1 stop"
 $ns at 5.5 "finish"
 
 $ns run
+
+//1.awk -f s3.awk cwnd1.tr > TCPVegas//
+//2. xgraph -x "Time (sec)" -y "Congestion Window Size" -t "Congestion Window graph for TCP1" TCPVegas//
+//3.awk -f s3.awk cwnd2.tr > TCPReno//
+//4.xgraph -x "Time (sec)" -y "Congestion Window Size" -t "Congestion Window graph for TCP2" TCPReno
